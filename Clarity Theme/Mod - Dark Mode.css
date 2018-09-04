@@ -1,0 +1,311 @@
+/* "Clarity" Modification by Valerio Lyndon / Dark Mode / Revision 1.1 + MAL Shutdown Fixes 5 */
+
+body { background: #161616 none no-repeat center / cover fixed !important; }
+
+a, a:hover {
+	color: #416abe;
+}
+
+/* BOX SHADOW */
+/* Nav Buttons */
+.header .header-title,
+.header-info,
+.icon-menu,
+.list-menu-float .icon-menu,
+.stats a,
+.list-table > tbody:first-of-type:after,
+.status-menu:after,
+/* Filter Box */
+#advanced-options #fancybox-close,
+#fancybox-outer #fancybox-close,
+#advanced-options .advanced-options-button a
+{ box-shadow: 0px 1px 2px rgba(0,0,0,0.8); }
+
+/* CONTENT BACKGROUND */
+/* Nav Buttons */
+.header .header-title,
+.header-info,
+.icon-menu,
+.list-menu-float .icon-menu,
+.stats a,
+.list-table > tbody:first-of-type:after,
+/* General */
+.list-table[data-items="[]"]:after,
+.data.number,
+.list-block:before,
+.list-item,
+.data.priority,
+#footer-block,
+/* Filter Box */
+#advanced-options
+{ background: #212121 !important; }
+
+/* CONTENT TEXT */
+/* Nav Buttons */
+.header .header-title,
+.header .header-title:before,
+.header .header-title:after,
+.header-info,
+.header-info a,
+.icon-menu,
+.icon-menu.profile:after,
+.list-menu-float .icon-menu,
+.list-menu-float .icon-menu .text,
+.icon-menu.quick-add:before,
+.icon-menu:before,
+.stats a,
+.list-table > tbody:first-of-type:after,
+/* General */
+.list-table[data-items="[]"]:after,
+.status-menu .status-button.on,
+.list-stats,
+.list-table .list-table-data .data a,
+.data.number,
+.data.chapter span,
+.data.progress span,
+.data.volume span,
+.data.score select,
+.data.progress input,
+.data.priority,
+.data.tags a.edit:hover:after,
+.list-table .more-info .more-content a,
+.list-unit .loading-space #loading-spinner,
+/* Filter Box */
+#advanced-options,
+#advanced-options [class*="-widget"] span:not(.widget-header),
+#advanced-options [class*="-widget"] input,
+#advanced-options [class*="-widget"] select,
+#advanced-options .sort-widget input[type=radio]:not(:disabled) + label,
+#advanced-options .advanced-options-button a,
+#fancybox-close
+{ color: #ababab !important; }
+
+/* HOVER TEXT */
+/* Nav Buttons */
+.header-info a:hover,
+/* General */
+.list-table .list-table-data a:not(.edit-disabled):hover,
+.data.title .link.sort:hover,
+.list-table .more-info .more-content a:hover,
+.data.progress span:only-child:after,
+.data.chapter span:only-child:after,
+.data.volume span:only-child:after
+{ color: #416abe !important; }
+
+/* HIGHLIGHT CONTENT BACKGROUND */
+/* General */
+.data.score a,
+.data.tags a:not(.edit),
+.data.studio a,
+.data.licensor a,
+.data.score select,
+.data.progress input,
+/* Filter Box */
+#advanced-options .advanced-options-button a,
+#advanced-options #fancybox-close,
+#fancybox-outer #fancybox-close
+{ background: #191919; }
+
+/* HIGHLIGHT CONTENT TEXT */
+.data.type,
+.data.title .add-edit-more span a,
+.add-edit-more,
+.data.progress:before,
+.data.rated:before,
+.data.magazine:before,
+.data.storage:before,
+.data.retail:before,
+.data.season:before,
+.data.chapter:before,
+.data.volume:before,
+.data.started:before,
+.data.finished:before,
+.data.days:before,
+.data.airing-started:before,
+.data.airing-finished:before,
+.content-status,
+.rewatching,
+.rereading,
+/* Filter Box */
+#advanced-options .advanced-options-header .description:hover:before
+{ color: #777 !important; }
+
+/* HIGHLIGHT HOVER TEXT */
+.data.title .add-edit-more span a:hover
+{ color: #999 !important; }
+
+/* SECONDARY TEXT */
+.data.started,
+.data.finished,
+.data.days,
+.data.airing-started,
+.data.airing-finished,
+.more-info .td1,
+/* Filter Box */
+#advanced-options .advanced-options-header .description:before,
+#advanced-options .sort-widget input[type=radio]:not(:checked) + label i
+{ color: #959595; }
+
+/* CONTENT BACKGROUND // TEXT */
+/* Nav Buttons */
+.header .header-title:hover:before,
+.header .header-title:hover:after,
+.icon-menu:hover,
+.list-menu-float .icon-menu:hover .text,
+.icon-menu.setting:hover .text a,
+.icon-menu.profile:hover:after,
+.icon-menu:hover:before,
+.icon-menu.quick-add:hover:before,
+.stats a:hover,
+.list-table > tbody:first-of-type:hover:after,
+.list-table-header .header-title a,
+/* General */
+.list-table-data .data.tags span a:hover,
+.list-table-data .data.studio span a:hover,
+.list-table-data .data.licensor span a:hover,
+.data.score a:not(.edit-disabled):hover,
+.data.score select,
+/* Filter Box */
+#advanced-options .advanced-options-button a:hover,
+#fancybox-close:hover
+{ color: #212121 !important; }
+
+/* CONTENT TEXT // BACKGROUND */
+/* Nav Buttons */
+.icon-menu.setting:hover .text a,
+.list-table-header .header-title a,
+/* General */
+.list-table-data .data.tags span a:hover,
+.list-table-data .data.studio span a:hover,
+.list-table-data .data.licensor span a:hover,
+.data.score a:not(.edit-disabled):hover,
+.data.score select,
+/* Filter Box */
+#advanced-options .advanced-options-button a:hover,
+#fancybox-close:hover
+{ background: #ababab !important; }
+
+/* HOVER TEXT // BACKGROUND */
+/* Nav Buttons */
+.header .header-title:hover,
+.icon-menu:hover,
+.list-menu-float .icon-menu:hover,
+.icon-menu.setting .text a:hover,
+.stats a:hover,
+.list-table > tbody:first-of-type:hover:after,
+.list-table-header .header-title a:hover,
+/* Header */
+.status-button.all_anime:after
+{ background: #416abe !important; }
+
+.icon-menu svg,
+.list-menu-float .icon-menu svg
+{ fill: #ababab !important; }
+.icon-menu:hover svg,
+.list-menu-float .icon-menu:hover svg
+{ fill: #212121 !important; }
+
+/* IMAGES AND ONE-OFFS */
+.data {
+	color: #ababab;
+}
+.data.tags a.edit:after {
+	color: rgba(171,171,171,0) !important;
+}
+
+.cover-block { background-color: #030303; }
+@media (max-width: 1920px) { .cover-block { background-image: url(https://i.imgur.com/ttwtPuS.jpg); }}
+@media (min-width: 1921px) { .cover-block { background-image: url(https://i.imgur.com/EovExMf.jpg); }}
+#cover-image-container {
+	background-image: url(https://i.imgur.com/2iSceJG.png);
+}
+#cover-image-container:after {
+	color: #f6f5ff;
+	text-shadow: 2px 2px 8px #e4bef4;
+}
+
+.cover-block:before {
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.8),rgba(0,0,0,0));
+	background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0));
+}
+.list-block:after {
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0.8),rgba(0,0,0,0));
+	background: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0));
+}
+.status-menu:after {
+	background-color: #444;
+	border-color: #212121;
+}
+#search-box input,
+.data.tags textarea
+{
+	border-color: #444;
+	background: #191919;
+	color: #ababab;
+}
+.data.tags a.edit { background: #323232; }
+
+#search-box.open {
+	background: #191919;
+	border-color: #444;
+}
+#search-box:after {
+	background-image: -webkit-linear-gradient(left, #191919 2px, rgba(25, 25, 25, 0) 9.5px, rgba(25, 25, 25, 0) 142.5px, #191919 150px);
+	background-image: linear-gradient(to right, #191919 2px, rgba(25, 25, 25, 0) 9.5px, rgba(25, 25, 25, 0) 142.5px, #191919 150px);
+}
+
+#advanced-options [class*="-widget"] span:not(.widget-header),
+#advanced-options [class*="-widget"] input,
+#advanced-options [class*="-widget"] select,
+#advanced-options [class*="-widget"] label,
+#advanced-options [class*="-widget"] .widget-header,
+#advanced-options .aired-date span:nth-of-type(n+2) {
+	border-color: #777 !important;
+}
+
+#advanced-options [class*="-widget"] input:focus,
+#advanced-options [class*="-widget"] select:focus,
+#advanced-options option,
+#advanced-options .sort-widget input[type=radio]:not(:disabled) + label:hover
+{
+	background-color: #444 !important;
+}
+#advanced-options .sort-widget input[type=radio]:not(:disabled):checked + label {
+	background: #777 !important;
+   border-color: #777;
+	color: #212121 !important;
+}
+#advanced-options input:disabled + label,
+#advanced-options :disabled {
+	color: #959595 !important;
+}
+
+#fancybox-outer #fancybox-close {
+	border-color: #212121;
+}
+
+#fancybox-outer, #advanced-options {
+	box-shadow: 0 0 32px rgba(0,0,0,0.75);
+}
+#fancybox-overlay {
+	opacity: 0.35 !important;
+}
+
+#copyright:after {
+	content: "";
+}
+
+/* Temporary MAL Shutdown Fix */
+.initialize-tutorial:before {
+	background: #161616;
+}
+.initialize-tutorial:after {
+	color: #ababab;
+}
+.initialize-tutorial .initialize-tutorial__message {
+	background: #161616;
+	color: #ababab !important;
+}
+.initialize-tutorial .initialize-tutorial__message a {
+	color: #ababab !important;
+}
